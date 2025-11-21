@@ -11,15 +11,17 @@ export function Layout({ children }: { children: React.ReactNode }) {
     <div className="min-h-screen flex flex-col">
       {/* Header */}
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-        <div className="container flex h-14 items-center px-4">
-          <Link to="/" className="flex items-center space-x-2">
-            <span className="font-bold text-xl">Rheum Master</span>
-          </Link>
+        <div className="flex h-14 items-center justify-center px-4">
+          <div className="w-full max-w-7xl flex items-center">
+            <Link to="/" className="flex items-center space-x-2">
+              <span className="font-bold text-xl">Rheum Master</span>
+            </Link>
+          </div>
         </div>
       </header>
 
       {/* Main Content */}
-      <main className="flex-1 container px-4 py-6 md:py-8">
+      <main className="flex-1 w-full px-4 py-6 md:py-8">
         {children}
       </main>
 
