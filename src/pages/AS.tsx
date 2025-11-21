@@ -45,7 +45,7 @@ export default function AS() {
   ]
 
   return (
-    <div className="max-w-6xl mx-auto space-y-6">
+    <div className="max-w-5xl mx-auto space-y-6">
       {/* Header */}
       <div className="space-y-2">
         <div className="flex items-center gap-2">
