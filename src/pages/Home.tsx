@@ -65,7 +65,7 @@ const modules = [
 
 export default function Home() {
   return (
-    <div className="max-w-6xl mx-auto space-y-8">
+    <div className="max-w-5xl mx-auto space-y-8">
       {/* Hero Section */}
       <div className="text-center space-y-4 py-8">
         <div className="flex items-center justify-center mb-4">
